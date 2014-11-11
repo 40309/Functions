@@ -24,17 +24,17 @@ Use the Python shell to investigate the built-in functions below and complete th
 
 |Code|Result|Description of function|
 |----|------|-----------------------|
-|`round(3.87)`| | |
-|`round(3.5)`| | |
-|`round(4.5)`| | |
-|`round(5.78,1)`| | |
-|`str(7)`| | |
-|`str(7.65)`| | |
-|`len("Computing")`| | |
-|`type(7)`| | |
-|`type("7")`| | |
-|`chr(97)`| | |
-|`ord("a")`| | |
+|`round(3.87)`|*4*|*It rounds the number to the nearest integer*|
+|`round(3.5)`|*4*|*It rounds the number to the nearest integer*|
+|`round(4.5)`|*5*|*It rounds the number to the nearest integer*|
+|`round(5.78,1)`|*5.8*|*It rounds the number to the first decimal place*|
+|`str(7)`|*7*|*Return a string containing a nicely printable representation of an object*|
+|`str(7.65)`|*7.65*|*Return a string containing a nicely printable representation of an object*|
+|`len("Computing")`|*9*|*count character length of the string*|
+|`type(7)`|*class 'int'*|*Informs what type of data has been entered*|
+|`type("7")`|*class 'str'*|*Informs what type of data has been entered*|
+|`chr(97)`|*a*|*Return a string of one character whose ASCII code is the integer*|
+|`ord("a")`|*97*|*Opposite of **chr*** *Given a string of length one, return an integer representing the Unicode code point |
 
 ##String Functions
 Python has a number of built-in functions that allow a programmer to manipulate text strings.
