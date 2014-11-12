@@ -34,7 +34,7 @@ Use the Python shell to investigate the built-in functions below and complete th
 |`type(7)`|*class 'int'*|*Informs what type of data has been entered*|
 |`type("7")`|*class 'str'*|*Informs what type of data has been entered*|
 |`chr(97)`|*a*|*Return a string of one character whose ASCII code is the integer*|
-|`ord("a")`|*97*|*Opposite of **chr*** *Given a string of length one, return an integer representing the Unicode code point |
+|`ord("a")`|*97*|*Opposite of **chr*** *Given a string of length one, return an integer representing the Unicode code point*|
 
 ##String Functions
 Python has a number of built-in functions that allow a programmer to manipulate text strings.
@@ -59,18 +59,29 @@ Paste your code and screenshots of running your programs in the space below
 
 ```python
 #question 1
+
+user_input = input("Please enter your string: ")
+length = len(user_input)
+print(length)
 ```
 
 ![Running Question 1 program]()
 
 ```python
 #question 2
+
+user_input = input("Please enter your value or string of one character: ")
+ascii = ord(user_input)
+print(ascii)
 ```
 
 ![Running Question 2 program]()
 
 ```python
 #question 3
+user_input = int(input("Please enter your ASCII value: "))
+ascii = chr(user_input)
+print(ascii)
 ```
 
 ![Running Question 3 program]()
@@ -92,16 +103,16 @@ When calling a function that is part of a module you need to prefix the function
 
     |Math Function|Description|
     |-------------|-----------|
-    |`math.trunc(3.14159)`| |
-    |`math.pi`| |
-    |`round(math.pi, 3)`| |
+    |`math.trunc(3.14159)`|*Return the Real value **3** truncated to an Integral*|
+    |`math.pi`|*The mathematical constant π = 3.141592..., to available precision.*|
+    |`round(math.pi, 3)`|*Rounds the π value to 3 decimal places*|
 
 2. Using the Python documentation, identify two other useful functions in the math module, briefly describe what each does and give a brief example of the purpose of a program that might use this function.
 
     |Math Function|Description|Program that would use it|
     |-------------|-----------|-------------------------|
-    | | | |
-    | | | |
+    |*math.cos(x)*|Return the cosine of x radians*|*Work out the angle of a triangle***(Vise Versa)**|
+    |*math.sin(x)*|*Return the sine of x radians*|*Work out the angle of a triangle***(Vise Versa)**|
 
 ##Using Built-in Functions and Modules
 Let's consider some code that uses some of the built-in functions that you have been investigating.
@@ -112,12 +123,12 @@ Without entering the code into Python, try to explain what the code below does. 
 ```python
 import math
 
-number_to_change = float(input("Please enter a number to 3 or more decimal places: "))
-number_one = math.trunc(number_to_change)
-number_two = round(number_to_change,2)
+number_to_change = float(input("Please enter a number to 3 or more decimal places: ")) #gets user input, example 3.14159
+number_one = math.trunc(number_to_change) #gets the integer of the number, in my example 3
+number_two = round(number_to_change,2) #rounds the value to 2 decimal places, 3.14
 
-print("The integer part of your number is {0}.".format(number_one))
-print("The number to two decimal places is {0}.".format(number_two))
+print("The integer part of your number is {0}.".format(number_one)) #prints out the value for number_one, in my example 3
+print("The number to two decimal places is {0}.".format(number_two)) #prints out the value for number_two, in my example 3.14
 ```
 
 ##Structured programming
