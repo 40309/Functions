@@ -44,10 +44,10 @@ Find out what each of the string functions in the table below does to a text str
 
 |Function|Effect it has on text string|
 |--------|----------------------------|
-|`msg.upper()`| |
-|`msg.lower()`| |
-|`msg.capitalize()`| |
-|`msg.title()`| |
+|`msg.upper()`|*Makes all the letters upper case*|
+|`msg.lower()`|*Makes all the letters lower case*|
+|`msg.capitalize()`|*Makes the First Letter Capital*|
+|`msg.title()`|*Makes the Text a Title*|
 
 ###Task 3
 
@@ -67,6 +67,7 @@ print(length)
 
 ![Running Question 1 program]()
 
+![](https://www.dropbox.com/s/tb719a7qsmr094h/code%201.JPG?dl=1)
 ```python
 #question 2
 
@@ -76,7 +77,7 @@ print(ascii)
 ```
 
 ![Running Question 2 program]()
-
+![](https://www.dropbox.com/s/3ixdsjyicdsm0b8/Code%202.JPG?dl=1)
 ```python
 #question 3
 user_input = int(input("Please enter your ASCII value: "))
@@ -85,7 +86,7 @@ print(ascii)
 ```
 
 ![Running Question 3 program]()
-
+![](https://www.dropbox.com/s/j9vtkf3rlhl32ek/code%203.JPG?dl=1)
 ##Importing Modules
 A module is a group of functions that programmers have packaged together for people to use. To use a module in your code you must import it into your program.
 
