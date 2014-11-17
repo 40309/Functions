@@ -1,3 +1,5 @@
-msg = "hellOlnihih"
+import math
 
-msg.upper(1)
+number = math.trunc(3.14159)
+
+print(number)
