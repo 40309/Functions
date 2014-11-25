@@ -19,4 +19,3 @@ for questions in range(1,21):
     else:
         print('Sorry, you got the answer wrong. The correct answer is',Ans)
         print()
-              
